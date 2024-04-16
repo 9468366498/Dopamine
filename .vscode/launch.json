@@ -1,0 +1,40 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+            Cloning into '/opt/theos'...
+remote: Enumerating objects: 18, done.
+remote: Counting objects: 100% (18/18), done.
+remote: Compressing objects: 100% (14/14), done.
+remote: Total 8802 (delta 4), reused 9 (delta 4), pack-reused 8784
+Receiving objects: 100% (8802/8802), 2.20 MiB | 9.00 KiB/s, done.
+Resolving deltas: 100% (5467/5467), done.
+Submodule 'vendor/dm.pl' (https://github.com/theos/dm.pl.git) registered for path 'vendor/dm.pl'
+Submodule 'vendor/include' (https://github.com/theos/headers.git) registered for path 'vendor/include'
+Submodule 'vendor/lib' (https://github.com/theos/lib.git) registered for path 'vendor/lib'
+Submodule 'vendor/logos' (https://github.com/theos/logos.git) registered for path 'vendor/logos'
+Submodule 'vendor/nic' (https://github.com/theos/nic.git) registered for path 'vendor/nic'
+Cloning into '/opt/theos/vendor/dm.pl'...
+remote: Enumerating objects: 142, done.        
+remote: Total 142 (delta 0), reused 0 (delta 0), pack-reused 142        
+Receiving objects: 100% (142/142), 54.20 KiB | 9.00 KiB/s, done.
+Resolving deltas: 100% (72/72), done.
+...
+...
+...
+Submodule path 'vendor/include/rocketbootstrap/LightMessaging': checked out '496257b11c3e906333797639355db9a43015eb50'
+Submodule path 'vendor/lib': checked out 'b1d502cc632ec349f8e2b3df9d7630bad64fd25e'
+Submodule path 'vendor/logos': checked out 'a54760ea60acf45fa48267b9fb344c0317d9351c'
+Submodule path 'vendor/nic': checked out '794d210f81198c6aef4f0ab8d04bd74ffe149f51'
+        }
+    ]
+}
